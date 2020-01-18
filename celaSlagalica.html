@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cela Slagalica</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Kviz,slagalica,Kviz Slagalica,igra,igre">
+<meta name="description" content="Kviz Slagalica u mojoj verziji">
+<link href="slagalica.png" rel="icon">
+<link href="slagalica.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="prvaIgra sveIgre">
+
+<div class="slagalica">
+	
+<h2>СЛАГАЛИЦА</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac1">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac2">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+
+<div class="slova">
+	
+<div class="prvo slovo"></div>
+<div class="drugo slovo"></div>
+<div class="trece slovo"></div>
+<div class="cetvrto slovo"></div>
+<div class="peto slovo"></div>
+<div class="sesto slovo"></div>
+<div class="sedmo slovo"></div>
+<div class="osmo slovo"></div>
+<div class="deveto slovo"></div>
+<div class="deseto slovo"></div>
+<div class="jedanaesto slovo"></div>
+<div class="dvanaesto slovo"></div>
+
+</div>
+
+<div class="gramatika"></div>
+
+<button class="brisanje" style="position: absolute; left: 1030px; top: 440px;">РЕСЕТУЈ РЕЧ</button>
+
+<input type="text" class="covekResenje ljudi" readonly="true">
+
+<input type="text" class="kompjuterResenje masina" readonly="true">
+
+<div class="reci"></div>
+
+<h2 class="vreme isteklo1">60</h2>
+        
+<div class="racunanje">0</div>
+
+</div>
+
+
+<div class="drugaIgra sveIgre">
+
+<div class="broj">
+	
+<h2>МОЈ БРОЈ</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac3">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac4">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+
+
+<div class="trocifren">
+	
+<h3 class="triBroja">
+
+<div class="red100"></div>	
+
+</h3>
+
+</div>
+
+<br>
+
+<div class="dvocifren">
+	
+<h2 class="dvaBroja br2" style="cursor: context-menu;"></h2>
+
+</div>
+
+<br>
+
+<div class="jednocifren">
+	
+<div class="prvi prvi1 br br2" style="cursor: context-menu;"></div> 
+<div class="drugi drugi1 br br2" style="cursor: context-menu;"></div> 
+<div class="treci treci1 br br2" style="cursor: context-menu;"></div> 
+<div class="cetvrti cetvrti1 br br2" style="cursor: context-menu;"></div> 
+
+</div>
+
+
+<div class="cetvrtiBr">
+	
+<h2 class="cetiriA br2" style="cursor: context-menu;"></h2>
+
+</div>
+
+<button class="novoRacunanje">РЕСЕТУЈ РАЧУНАЊЕ</button>
+
+<div class="matematika">
+	
+<div class="operacije"><h3 class="racunanje1">+</h3></div>
+<div class="operacije"><h3 class="racunanje1">-</h3></div>
+<div class="operacije"><h3 class="racunanje1">*</h3></div>
+<div class="operacije"><h3 class="racunanje1">/</h3></div>
+<div class="operacije"><h3 class="racunanje1">(</h3></div>
+<div class="operacije"><h3 class="racunanje1">)</h3></div>	
+
+</div>
+
+<input type="text" class="covek resava" readonly="true">
+
+<div class="konacanBroj"></div>
+
+<input type="text" class="kompjuter resava" readonly="true">
+
+<h2 class="vreme tajmer">60</h2>
+
+<div class="konacanBroj2"></div>
+
+<div class="obrtanjeBrojeva"></div>
+
+</div>
+
+
+
+<div class="trecaIgra sveIgre">
+
+<div class="spojnice">
+	
+<h2>СПОЈНИЦЕ</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac5">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac6">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+
+<br>
+
+<h3 class="pitanja"></h3>
+
+
+<br>
+<br>
+
+
+<div class="prva grupa">
+<h4 class="tekst1 Parova"></h4>
+<p class="par1 prviParovi"></p>
+</div>
+
+<div class="prvi deo">
+<h4  class="tekstovi1 Delova"></h4>
+<p class="paric1 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="druga grupa">
+<h4 class="tekst2 Parova"></h4>
+<p class="par2 prviParovi"></p>
+</div>
+
+<div class="drugi deo">
+<h4  class="tekstovi2 Delova"></h4>
+<p class="paric2 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="treca grupa">
+<h4 class="tekst3 Parova"></h4>
+<p class="par3 prviParovi"></p>
+</div>
+
+<div class="treci deo">
+<h4  class="tekstovi3 Delova"></h4>
+<p class="paric3 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="cetvrta grupa">
+<h4 class="tekst4 Parova"></h4>
+<p class="par4 prviParovi"></p>
+</div>
+
+<div class="cetvrti deo">
+<h4  class="tekstovi4 Delova"></h4>
+<p class="paric4 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="peta1 grupa">
+<h4 class="tekst5 Parova"></h4>
+<p class="par5 prviParovi"></p>
+</div>
+
+<div class="peti deo">
+<h4  class="tekstovi5 Delova"></h4>
+<p class="paric5 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="sesta grupa">
+<h4 class="tekst6 Parova"></h4>
+<p class="par6 prviParovi"></p>
+</div>
+
+<div class="sesti deo">
+<h4  class="tekstovi6 Delova"></h4>
+<p class="paric6 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="sedma grupa">
+<h4 class="tekst7 Parova"></h4>
+<p class="par7 prviParovi"></p>
+</div>
+
+<div class="sedmi deo">
+<h4  class="tekstovi7 Delova"></h4>
+<p class="paric7 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="osma grupa">
+<h4 class="tekst8 Parova"></h4>
+<p class="par8 prviParovi"></p>
+</div>
+
+<div class="osmi deo">
+<h4  class="tekstovi8 Delova"></h4>
+<p class="paric8 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="deveta grupa">
+<h4 class="tekst9 Parova"></h4>
+<p class="par9 prviParovi"></p>
+</div>
+
+<div class="deveti deo">
+<h4  class="tekstovi9 Delova"></h4>
+<p class="paric9 drugiParovi"></p>
+</div>
+
+<br>
+
+<div class="deseta grupa">
+<h4 class="tekst10 Parova"></h4>
+<p class="par10 prviParovi"></p>
+</div>
+
+<div class="deseti deo">
+<h4 class="tekstovi10 Delova"></h4>
+<p class="paric10 drugiParovi"></p>
+</div>
+
+<h2 class="vreme1">5</h2>
+
+<br>
+
+</div>
+
+
+<div class="cetvrtaIgra sveIgre">
+
+<div class="skocko">
+	
+<h2>СКОЧКО</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac7">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac8">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+
+<div class="rasporedSkocka">
+	
+<div class="skockoJedan">
+	
+<br>	
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona1"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona1"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona1"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona1"></div>
+<button class="prvaP potvrda">ПОТВРДИ</button> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona4"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona4"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona4"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona4"></div> 
+<button class="drugaP potvrda">ПОТВРДИ</button> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona5"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona5"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona5"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona5"></div> 
+<button class="trecaP potvrda">ПОТВРДИ</button> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona6"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona6"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona6"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona6"></div>
+<button class="cetvrtaP potvrda">ПОТВРДИ</button>  
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona7"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona7"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona7"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona7"></div> 
+<button class="petaP potvrda">ПОТВРДИ</button> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona8"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona8"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona8"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona8"></div> 
+<button class="sestaP potvrda">ПОТВРДИ</button> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona9"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona9"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona9"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona9"></div> 
+
+<hr class="linija">
+
+<div class="skockoKolone1"><img src="" class="prviRed kolona3 kolona10"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona3 kolona10 "></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona3 kolona10"></div>
+<div class="skockoKolone1"><img src="" class="prviRed kolona3 kolona10"></div> 
+
+</div>
+
+
+<div class="skockoDva">
+	
+<br>	
+
+<div class="skockoKolone2 skockoKolone3"></div>
+<div class="skockoKolone2 skockoKolone3"></div>
+<div class="skockoKolone2 skockoKolone3"></div>
+<div class="skockoKolone2 skockoKolone3"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone4"></div>
+<div class="skockoKolone2 skockoKolone4"></div>
+<div class="skockoKolone2 skockoKolone4"></div>
+<div class="skockoKolone2 skockoKolone4"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone5"></div>
+<div class="skockoKolone2 skockoKolone5"></div>
+<div class="skockoKolone2 skockoKolone5"></div>
+<div class="skockoKolone2 skockoKolone5"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone6"></div>
+<div class="skockoKolone2 skockoKolone6"></div>
+<div class="skockoKolone2 skockoKolone6"></div>
+<div class="skockoKolone2 skockoKolone6"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone7"></div>
+<div class="skockoKolone2 skockoKolone7"></div>
+<div class="skockoKolone2 skockoKolone7"></div>
+<div class="skockoKolone2 skockoKolone7"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone8"></div>
+<div class="skockoKolone2 skockoKolone8"></div>
+<div class="skockoKolone2 skockoKolone8"></div>
+<div class="skockoKolone2 skockoKolone8"></div>
+
+<hr>
+
+<div class="skockoKolone2 skockoKolone9"></div>
+<div class="skockoKolone2 skockoKolone9"></div>
+<div class="skockoKolone2 skockoKolone9"></div>
+<div class="skockoKolone2 skockoKolone9"></div>
+
+<hr>
+
+<div class="skockoKolone2"></div>
+<div class="skockoKolone2"></div>
+<div class="skockoKolone2"></div>
+<div class="skockoKolone2"></div>
+
+</div>
+
+</div>
+
+
+<div class="brojka200">90</div>
+
+</div>
+
+
+<div class="petaIgra sveIgre">
+
+<div class="koZnaZna">
+	
+<h2>КО ЗНА ЗНА</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac9">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac10">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+<div class="alarm">5</div>
+
+<br>
+<br>
+<br>
+
+<div class="Pitanja"></div>
+
+
+<br>
+<br>
+<br>
+
+<div class="odgovori">
+	
+<ol class="odgovaranje">
+	
+<div class="a zajednica"><li></li></div>
+<div class="b zajednica"><li></li></div>
+
+<br>
+<br>
+<br>
+
+<div class="c zajednica"><li></li></div>
+<div class="d zajednica"><li></li></div>
+
+</ol>
+
+
+</div>
+
+
+<div class="krug"></div>
+
+</div>
+
+
+<div class="sestaIgra sveIgre">
+
+<div class="koZnaZna">
+	
+<h2>АСОЦИЈАЦИЈЕ</h2>
+
+</div>
+
+<div class="COVEK">
+	
+<h3>ЧОВЕК</h3>
+<div class="ljudskiIgrac igrac11">0</div>
+<div class="rezultati1"></div>
+
+</div>
+
+<div class="KOMPJUTER">
+	
+<h3>КОМПЈУТЕР</h3>
+<div class="kompjuterskiIgrac igrac12">0</div>
+<div class="rezultati2"></div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="asocijacijaA">
+  
+<div class="prvaA kolonaA kolone"><h3 class="pogadjanje1 objekti1"></h3></div>
+<div class="drugaA kolonaA kolone"><h3 class="pogadjanje1 objekti1"></h3></div>
+<div class="trecaA kolonaA kolone"><h3 class="pogadjanje1 objekti1"></h3></div>
+<div class="cetvrtaA kolonaA kolone"><h3 class="pogadjanje1 objekti1"></h3></div>
+<div class="petaA kolonaA"><input type="text" class="resenjeA cetvrtina unosOdgovora"></div>
+
+</div>
+
+<br>
+<br>
+
+<div class="asocijacijaC">
+  
+<div class="petaC kolonaC"><input type="text" class="resenjeC cetvrtina unosOdgovora"></div> 
+<div class="prvaC kolonaC kolone"><h3 class="pogadjanje1 objekti3"></h3></div>
+<div class="drugaC kolonaC kolone"><h3 class="pogadjanje1 objekti3"></h3></div>
+<div class="trecaC kolonaC kolone"><h3 class="pogadjanje1 objekti3"></h3></div>
+<div class="cetvrtaC kolonaC kolone"><h3 class="pogadjanje1 objekti3"></h3></div>
+
+</div>
+
+<div class="asocijacijaB">
+  
+<div class="prvaB kolonaB kolone"><h3 class="pogadjanje1 objekti2"></h3></div>
+<div class="drugaB kolonaB kolone"><h3 class="pogadjanje1 objekti2"></h3></div>
+<div class="trecaB kolonaB kolone"><h3 class="pogadjanje1 objekti2"></h3></div>
+<div class="cetvrtaB kolonaB kolone"><h3 class="pogadjanje1 objekti2"></h3></div>
+<div class="petaB kolonaB"><input type="text" class="resenjeB cetvrtina unosOdgovora"></div>
+
+</div>
+
+<br>
+<br>
+
+<div class="asocijacijaD">
+  
+<div class="petaD kolonaD"><input type="text" class="resenjeD cetvrtina unosOdgovora"></div> 
+<div class="prvaD kolonaD kolone"><h3 class="pogadjanje1 objekti4"></h3></div>
+<div class="drugaD kolonaD kolone"><h3 class="pogadjanje1 objekti4"></h3></div>
+<div class="trecaD kolonaD kolone"><h3 class="pogadjanje1 objekti4"></h3></div>
+<div class="cetvrtaD kolonaD kolone"><h3 class="pogadjanje1 objekti4"></h3></div>
+
+</div>
+
+<input type="text" class="konacnoResenje cetvrtina unosOdgovora">
+
+<div class="odbrojavanje">15</div>
+<h3 class="menjanje">Човек погађа</h3>
+
+<div class="pretraga">1</div>
+<div class="prekidPretrage">0</div>
+<div class="gotovo" style="visibility: hidden;">0</div>
+
+</div>
+
+<div class="konacanSkor">
+
+<br>
+<br>
+	
+<div class="covek10 tabela">ЧОВЕК</div>
+<div class="igra10 tabela">ИГРЕ</div>
+<div class="kompjuter10 tabela">КОМПЈУТЕР</div>
+<br>
+<div class="covek1 ponovoNule tabela">0</div>
+<div class="igra1 tabela">СЛАГАЛИЦА</div>
+<div class="kompjuter1 ponovoNule tabela">0</div>
+<br>
+<div class="covek2 ponovoNule tabela">0</div>
+<div class="igra2 tabela">МОЈ БРОЈ</div>
+<div class="kompjuter2 ponovoNule tabela">0</div>
+<br>
+<div class="covek3 ponovoNule tabela">0</div>
+<div class="igra3 tabela">СПОЈНИЦЕ</div>
+<div class="kompjuter3 ponovoNule tabela">0</div>
+<br>
+<div class="covek4 ponovoNule tabela">0</div>
+<div class="igra4 tabela">СКОЧКО</div>
+<div class="kompjuter4 ponovoNule tabela">0</div>
+<br>
+<div class="covek5 ponovoNule tabela">0</div>
+<div class="igra5 tabela">КО ЗНА ЗНА</div>
+<div class="kompjuter5 ponovoNule tabela">0</div>
+<br>
+<div class="covek6 ponovoNule tabela">0</div>
+<div class="igra6 tabela">АСОЦИЈАЦИЈЕ</div>
+<div class="kompjuter6 ponovoNule tabela">0</div>
+<br>
+<div class="covek7 ponovoNule tabela">0</div>
+<div class="igra7 tabela">РЕЗУЛТАТ</div>
+<div class="kompjuter7 ponovoNule tabela">0</div>
+<br>
+<br>
+<button class="restartIgrice">НОВА ИГРА</button>
+
+</div>
+
+
+
+<script src="slagalica.js"></script>
+<script src="mojbroj.js"></script>
+<script src="spojnice.js"></script>
+<script src="skocko.js"></script>
+<script src="koznazna.js"></script>
+<script src="asocijacije.js"></script>
+<script src="celaSlagalica.js"></script>
+
+</body>
+</html>

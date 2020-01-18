@@ -1,0 +1,1693 @@
+body   {
+
+background: #3B5998;
+
+}
+
+.restartIgrice {
+
+background: chocolate;
+color: white;
+font-family: Verdana;
+text-align: center;
+border-radius: 5px;
+
+}
+
+.konacanSkor  {
+
+width: 500px;
+height: 380px;
+border: 1px solid white;
+border-radius: 5px;
+background: slateblue;
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 18px;
+left: 420px;
+top: 150px;
+position: absolute;
+visibility: hidden;
+
+}
+
+.tabela {
+
+width: 130px;
+height: 20px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline-block;
+text-align: center;
+padding: 10px;
+
+}
+
+.rezultati1  {
+
+display: inline-block;
+position: absolute;
+top: 74px;
+left: 61px;
+color: white;
+
+}
+
+.rezultati2  {
+
+display: inline-block;
+position: absolute;
+top: 74px;
+left: 65px;
+color: white;
+
+}
+
+.prvaIgra  {
+
+
+}
+
+.drugaIgra  {
+
+margin-top: -772px;
+visibility: hidden;
+
+}
+
+.trecaIgra {
+
+margin-top: -722px;
+visibility: hidden;
+
+}
+
+.cetvrtaIgra {
+
+position: absolute;
+top: -10px;
+visibility: hidden;
+
+}
+
+.petaIgra {
+
+margin-top: -500px;
+visibility: hidden;
+
+}
+
+
+.sestaIgra {
+
+margin-top: -687px;
+visibility: hidden;
+
+}
+
+.ljudskiIgrac {
+
+color: #FBBC05;
+
+}
+
+.kompjuterskiIgrac {
+
+color: olivedrab;
+
+}
+
+
+.slagalica  {
+
+width: 600px;
+height: 100px;
+border: 1px solid deepskyblue;
+border-radius: 5px;
+margin-top: 120px;
+margin-left: 358px;
+background: #55ACEE;
+text-align: center;
+
+}
+
+.gramatika {
+
+top: 450px;
+position: absolute;
+left: 200px;
+color: white;
+font-family: Verdana;
+
+}
+
+.racunanje {
+
+visibility: hidden;
+
+}
+
+h2  {
+
+font-family: Verdana;
+margin-top: 30px;
+color: white;
+text-transform: uppercase;
+
+}
+
+.slova  {
+
+width: 1110px;
+height: 100px;
+border-radius: 5px;
+margin-left: 100px;
+margin-top: 60px;
+
+}
+
+.slovo  {
+
+width: 60px;
+height: 60px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline;
+margin-left: 30px;
+margin-top: 20px;
+position: absolute;
+background: white;
+text-align: center;
+font-size: 40px;
+cursor: pointer;
+text-transform: uppercase;
+
+}
+
+.drugo  {
+
+margin-left: 120px;
+
+}
+
+.trece  {
+
+margin-left: 210px;
+
+}
+
+.cetvrto  {
+
+margin-left: 300px;
+
+}
+
+.peto  {
+
+margin-left: 390px;
+
+}
+
+.sesto  {
+
+margin-left: 480px;
+
+}
+
+.sedmo  {
+
+margin-left: 570px;
+
+}
+
+.osmo  {
+
+margin-left: 660px;
+
+}
+
+.deveto  {
+
+margin-left: 750px;
+
+}
+
+.deseto {
+
+margin-left: 840px;
+
+}
+
+.jedanaesto  {
+
+margin-left: 930px;
+
+}
+
+.dvanaesto  {
+
+margin-left: 1020px;
+
+
+}
+
+.covekResenje  {
+
+margin-left: 400px;
+margin-top: 50px;
+width: 500px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+
+}
+
+.kompjuterResenje  {
+
+margin-left: 400px;
+margin-top: 50px;
+width: 500px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+background: white;
+
+}
+
+.reci  {
+
+visibility: hidden;
+
+}
+
+.COVEK {
+
+position: absolute;
+margin-left: 130px;
+margin-top: -100px;
+width: 100px;
+height: 70px;
+border: 1px solid white;
+border-radius: 5px;
+padding: 15px;
+text-align: center;
+background: #FBBC05;
+font-family: Arial;
+color: white;
+
+}
+
+.KOMPJUTER  {
+
+position: absolute;
+margin-left: 1050px;
+margin-top: -103px;
+width: 110px;
+height: 70px;
+border: 1px solid white;
+border-radius: 5px;
+padding: 15px;
+text-align: center;
+background: olivedrab;
+font-family: Arial;
+color: white;
+
+}
+
+.vreme  {
+
+margin-left: 585px;
+margin-top: 50px;
+width: 80px;
+height: 30px;
+padding: 20px;
+border: 1px solid white;
+border-radius: 5px;
+background: #EA4335;
+color: white;
+text-align: center;
+font-family: Verdana;
+
+}
+
+.vreme1  {
+
+margin-left: 135px;
+margin-top: -504px;
+width: 80px;
+height: 30px;
+padding: 20px;
+border: 1px solid white;
+border-radius: 5px;
+background: #EA4335;
+color: white;
+text-align: center;
+font-family: Verdana;
+
+}
+
+.broj  {
+
+width: 600px;
+height: 100px;
+border: 1px solid deepskyblue;
+border-radius: 5px;
+margin-top: 120px;
+margin-left: 358px;
+background: #55ACEE;
+text-align: center;
+
+}
+
+.trocifren  {
+
+width: 100px;
+height: 70px;
+border: 1px solid #0F7DC2;
+border-radius: 5px;
+margin-top: 40px;
+margin-left: 610px;
+background: #00A1F1;
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 25px;
+
+}
+
+
+.jednocifren  {
+
+
+
+}
+
+.br  {
+
+width: 70px;
+height: 42px;
+border-radius: 5px;
+display: inline-block;
+position: absolute;
+top: 362px;
+left: 340px;
+right: 150px;
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 30px;
+padding-top: 15px;
+padding-bottom: 10px;
+background: #00A1F1;
+color: white;
+
+}
+
+.prvi1 {
+
+margin-left: -110px;
+
+}
+
+.drugi1  {
+
+margin-left: -20px;
+
+}
+
+.treci1  {
+
+margin-left: 70px;
+
+}
+
+
+.cetvrti1  {
+
+margin-left: 160px;
+
+}
+
+.red100  {
+
+display: inline;
+margin-left: -6px;
+cursor: pointer;
+
+}
+
+.dvocifren  {
+
+width: 100px;
+height: 70px;
+border: 1px solid #0F7DC2;
+border-radius: 5px;
+margin-top: 10px;
+margin-left: 610px;
+background: #00A1F1;
+
+
+}
+
+.dvaBroja  {
+
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 35px;
+margin-top: 10px
+
+}
+
+.triBroja {
+
+margin-top: 10px;
+margin-left: 5px;
+font-size: 35px;
+
+}
+
+.cetvrtiBr  {
+
+width: 200px;
+height: 70px;
+border: 1px solid #0F7DC2;
+border-radius: 5px;
+background: #00A1F1;
+margin-left: 745px;
+margin-top: -89px;
+
+}
+
+.cetiriA  {
+
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 35px;
+margin-top: 10px;
+
+}
+
+.matematika  {
+
+margin-left: 450px;
+margin-top: 40px;
+
+}
+
+.operacije {
+
+display: inline-block;
+width: 50px;
+height: 55px;
+border-radius: 5px;
+margin-left: 10px;
+text-align: center;
+background: #00A1F1;
+
+}
+
+.racunanje1 {
+
+color: white;
+cursor: context-menu;
+
+}
+
+.covek  {
+
+margin-left: 110px;
+margin-top: 50px;
+width: 870px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+
+}
+
+.kompjuter {
+
+margin-left: 110px;
+margin-top: 30px;
+width: 870px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+background: white;
+
+}
+
+.resava {
+
+width: 330px;
+margin-left: 490px;
+
+}
+
+.novoRacunanje  {
+
+position: absolute;
+left: 270px;
+top: 480px;
+
+}
+
+
+.konacanBroj  {
+
+width: 100px;
+height: 40px;
+border: 1px solid deepskyblue;
+border-radius: 15px;
+margin-left: 1000px;
+margin-top: -60px;
+background: #00A1F1;
+color: white;
+font-family: Verdana;
+font-size: 25px;
+text-align: center;
+padding-top: 20px;
+
+}
+
+.konacanBroj2  {
+
+width: 100px;
+height: 40px;
+border: 1px solid deepskyblue;
+border-radius: 15px;
+margin-left: 1000px;
+margin-top: -205px;
+background: #00A1F1;
+color: white;
+font-family: Verdana;
+font-size: 25px;
+text-align: center;
+padding-top: 20px;
+
+}
+
+.obrtanjeBrojeva {
+
+visibility: hidden;
+
+
+}
+
+.tajmer {
+
+margin-left: 615px;
+
+}
+
+.spojnice  {
+
+width: 600px;
+height: 100px;
+border: 1px solid deepskyblue;
+border-radius: 5px;
+margin-top: 120px;
+margin-left: 358px;
+background: #55ACEE;
+text-align: center;
+
+}
+
+.pitanja  {
+
+margin-left: 535px;
+color: white;
+font-family: Verdana;
+cursor: pointer;
+
+}
+
+.pitanja2  {
+
+margin-left: 535px;
+color: white;
+font-family: Verdana;
+cursor: pointer;
+
+}
+
+.grupa {
+
+width: 300px;
+height: 30px;
+border: 1px solid white;
+border-radius: 3px;
+background: white;
+margin-left: 330px;
+
+
+}
+
+.Parova  {
+
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+margin-top: 2px;
+
+}
+
+.prviParovi  {
+
+text-align: right;
+font-family: Verdana;
+margin-top: -37px;
+margin-right: 15px;
+color: white;
+cursor: context-menu;
+visibility: hidden;
+
+}
+
+#grupa2 {
+
+width: 300px;
+height: 30px;
+border: 1px solid white;
+border-radius: 3px;
+background: #00bfff;
+margin-left: 330px;
+
+
+}
+
+.Parovi2  {
+
+color: white;
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+margin-top: 2px;
+
+}
+
+.prviParovi2  {
+
+text-align: right;
+font-family: Verdana;
+margin-top: -37px;
+margin-right: 15px;
+color: white;
+cursor: context-menu;
+visibility: hidden;
+
+}
+
+
+.deo  {
+
+width: 300px;
+height: 30px;
+border: 1px solid white;
+border-radius: 3px;
+background: white;
+margin-left: 680px;
+margin-top: -30px;
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+
+
+}
+
+.Delova  {
+
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+margin-top: 2px;
+
+}
+
+.drugiParovi  {
+
+text-align: right;
+font-family: Verdana;
+margin-top: -37px;
+margin-right: 15px;
+color: white;
+cursor: context-menu;
+visibility: hidden;
+
+}
+
+.deo2  {
+
+width: 300px;
+height: 30px;
+border: 1px solid white;
+border-radius: 3px;
+background: #00bfff;
+margin-left: 680px;
+margin-top: -30px;
+color: white;
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+
+
+}
+
+.Delovi2  {
+
+color: white;
+text-align: center;
+font-family: Verdana;
+cursor: context-menu;
+margin-top: 2px;
+
+}
+
+.drugiParovi2  {
+
+text-align: right;
+font-family: Verdana;
+margin-top: -37px;
+margin-right: 15px;
+color: white;
+cursor: context-menu;
+visibility: hidden;
+
+}
+
+.grupa:hover, .deo:hover  {
+
+background: #FBBC05;
+
+}
+
+
+.obojiPar  {
+
+background : #34A853;
+
+
+}
+
+.pogodjenPar  {
+
+background: #d98cb3;
+
+}
+
+.pogresanPar  {
+
+background: #292F33;
+
+}
+
+.kompjuterovPar  {
+
+
+}
+
+.kompjuterovPar1  {
+
+background: #d98cb3;
+
+}
+
+.kompjuteroviParovi  {
+
+background: #999966;
+
+}
+
+.skocko  {
+
+width: 600px;
+height: 100px;
+border: 1px solid deepskyblue;
+border-radius: 5px;
+margin-top: 120px;
+margin-left: 358px;
+background: #55ACEE;
+text-align: center;
+
+}
+
+hr  {
+
+width: 280px;
+
+}
+
+.linija  {
+
+width: 365px;
+
+}
+
+.brojka200 {
+
+margin-left: 135px;
+margin-top: -367px;
+width: 80px;
+height: 30px;
+padding: 20px;
+border: 1px solid white;
+border-radius: 5px;
+background: #EA4335;
+color: white;
+text-align: center;
+font-family: Verdana;
+
+}
+
+.rasporedSkocka  {
+
+width: 700px;
+height: 600px;
+border: 1px solid white;
+border-radius: 5px;
+margin-top: 30px;
+margin-left: 315px;
+background: white;
+text-align: center;
+
+}
+
+.skockoJedan  {
+
+width: 400px;
+height: 599px;
+border: 1px solid white;
+border-radius: 5px;
+margin-top: 0px;
+margin-left: -1px;
+background: white;
+text-align: center;
+background: olivedrab;
+
+}
+
+.skockoDva  {
+
+width: 300px;
+height: 599px;
+border: 1px solid white;
+border-radius: 5px;
+margin-top: -601px;
+margin-left: 401px;
+background: white;
+text-align: center;
+background: olivedrab;
+
+}
+
+.skockoKolone1  {
+
+width: 50px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline-block;
+margin-right: 50px;
+margin-left: -38px;
+background: white;
+
+}
+
+.skockoKolone2  {
+
+width: 50px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline-block;
+margin-left: 11px;
+background: white;
+
+}
+
+.dodavanje, .dodavanje1  {
+
+width: 50px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline-block;
+margin-left: 11px;
+background: white;
+
+}
+
+.skockoSlagalica  {
+
+width: 101px;
+height: 300px;
+border: 1px solid white;
+border-radius: 5px;
+margin-top: -601px;
+margin-left: 1101px;
+background: white;
+text-align: center;
+background: olivedrab;
+
+}
+
+.skockoKolone3 {
+
+margin-left: 12px;
+
+}
+
+#skockoKolone0  {
+
+width: 50px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+display: inline-block;
+margin-left: 10px;
+background: white;
+
+}
+
+#prviRed  {
+
+
+
+}
+
+.prvaP  {
+
+position: absolute;
+left: 620px;
+top: 280px;
+
+}
+
+.drugaP  {
+
+position: absolute;
+left: 620px;
+top: 355px;
+
+}
+
+.trecaP  {
+
+position: absolute;
+left: 620px;
+top: 426px;
+
+}
+
+.cetvrtaP  {
+
+position: absolute;
+left: 620px;
+top: 500px;
+
+}
+
+.petaP  {
+
+position: absolute;
+left: 620px;
+top: 575px;
+
+}
+
+.sestaP  {
+
+position: absolute;
+left: 620px;
+top: 645px;
+
+}
+
+img  {
+
+width: 50px;
+height: 50px;	
+opacity: 0;
+
+}
+
+button  {
+
+background: teal;
+color: white;
+padding: 10px;
+font-family: Verdana;
+outline: none;
+
+}
+
+.kolona3  {
+
+
+}
+
+.jedinica {
+
+
+}
+
+.dvojka {
+
+
+}
+
+
+.jedinica1 {
+
+
+}
+
+.dvojka1 {
+
+
+}
+
+.jedinica2 {
+
+
+}
+
+.dvojka2 {
+
+
+}
+
+.jedinica3 {
+
+
+}
+
+.dvojka3 {
+
+
+}
+
+.jedinica4 {
+
+
+}
+
+.dvojka4 {
+
+
+}
+
+.jedinica5 {
+
+
+}
+
+.dvojka5 {
+
+
+}
+
+
+.trojka  {
+
+
+	
+}
+
+.cetvorka  {
+
+
+	
+}
+
+.petorka  {
+
+
+	
+}
+
+.sestorka  {
+
+
+	
+}
+
+.sedmorka  {
+
+
+	
+}
+
+.osmorka {
+
+
+	
+}
+
+.skocko1 {
+
+
+}
+
+.skocko2 {
+
+
+}
+
+.skocko3 {
+
+
+}
+
+.skocko10 {
+
+
+}
+
+.skocko20 {
+
+
+}
+
+.skocko30 {
+
+
+}
+
+.skocko11 {
+
+
+}
+
+.skocko21 {
+
+
+}
+
+.skocko31 {
+
+
+}
+
+.skocko12 {
+
+
+}
+
+.skocko22 {
+
+
+}
+
+.skocko32 {
+
+
+}
+
+.skocko13 {
+
+
+}
+
+.skocko23 {
+
+
+}
+
+.skocko33 {
+
+
+}
+
+.skocko14 {
+
+
+}
+
+.skocko24 {
+
+
+}
+
+.skocko34 {
+
+
+}
+
+.prvaSlicica {
+
+
+}
+
+.drugaSlicica {
+
+
+}
+
+.trecaSlicica {
+
+
+}
+
+.cetvrtaSlicica {
+
+
+}
+
+.petaSlicica {
+
+
+}
+
+.sestaSlicica {
+
+
+}
+
+.prvaSlicica1 {
+
+
+}
+
+.drugaSlicica2 {
+
+
+}
+
+.trecaSlicica3 {
+
+
+}
+
+.cetvrtaSlicica4 {
+
+
+}
+
+.petaSlicica5 {
+
+
+}
+
+.sestaSlicica6 {
+
+
+}
+
+.prvaSlicica10 {
+
+
+}
+
+.drugaSlicica11 {
+
+
+}
+
+.trecaSlicica12 {
+
+
+}
+
+.cetvrtaSlicica13 {
+
+
+}
+
+.petaSlicica14 {
+
+
+}
+
+.sestaSlicica15 {
+
+
+}
+
+.prvaSlicica21 {
+
+
+}
+
+.drugaSlicica22 {
+
+
+}
+
+.trecaSlicica23 {
+
+
+}
+
+.cetvrtaSlicica24 {
+
+
+}
+
+.petaSlicica25 {
+
+
+}
+
+.sestaSlicica26 {
+
+
+}
+
+.prvaSlicica01 {
+
+
+}
+
+.drugaSlicica02 {
+
+
+}
+
+.trecaSlicica03 {
+
+
+}
+
+.cetvrtaSlicica04 {
+
+
+}
+
+.petaSlicica05 {
+
+
+}
+
+.sestaSlicica06 {
+
+
+}
+
+.prvaSlicicaA {
+
+
+}
+
+.drugaSlicicaB {
+
+
+}
+
+.trecaSlicicaC {
+
+
+}
+
+.cetvrtaSlicicaD {
+
+
+}
+
+.petaSlicicaE {
+
+
+}
+
+.sestaSlicicaF {
+
+
+}
+
+.pobeda {
+
+background: cornflowerblue;
+	
+}
+
+.koZnaZna  {
+
+width: 600px;
+height: 100px;
+border: 1px solid deepskyblue;
+border-radius: 5px;
+margin-top: 120px;
+margin-left: 358px;
+background: #55ACEE;
+text-align: center;
+
+}
+
+
+.Pitanja  {
+
+width: 600px;
+height: 95px;
+border: 1px solid white;
+border-radius: 10px;
+margin-left: 358px;
+background: #55ACEE;
+color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 17px;
+padding-top: 75px;
+text-transform: uppercase;
+
+}
+
+.odgovori  {
+
+margin-left: 280px;
+
+}
+
+ol  {
+
+list-style-type: upper-alpha;
+list-style-position: inside;
+
+}
+
+.zajednica {
+
+width: 300px;
+height: 40px;
+padding: 5px;
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+border: 1px solid white;
+border-radius: 5px;
+background: white;
+font-family: Verdana;
+font-size: 25px;
+margin-left: 20px;
+display: inline-block;
+
+}
+
+.zajednica:hover  {
+
+background: orange;
+cursor: pointer;
+
+}
+
+.alarm  {
+
+width: 60px;
+height: 40px;
+border: 1px solid white;
+border-radius: 5px;
+background: coral;
+color: white;
+font-family: Verdana;
+font-size: 25px;
+padding: 10px;
+text-align: center;
+margin-left: 150px;
+margin-top: 100px;
+position: absolute;
+
+}
+
+.krug  {
+
+visibility: hidden;
+
+}
+
+.kolonaA, .kolonaC, .kolonaB, .kolonaD  {
+
+width: 150px;
+height: 40px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+background: white;
+font-family: Verdana;
+font-size: 13px;
+
+}
+
+.peta, .petaC, .petaB, .petaD  {
+
+width: 147px;
+height: 30px;
+
+}
+
+.petaC, .petaD  {
+
+border: 1px solid black;
+
+}
+
+.resenjeA, .resenjeB  {
+
+width: 147px;
+height: 34px;
+border-radius: 5px;
+outline: none;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+.resenjeC, .resenjeD  {
+
+width: 147px;
+height: 31px;
+border-radius: 5px;
+outline: none;
+text-align: center;
+margin-top: -7px;
+text-transform: uppercase;
+
+}
+
+.asocijacijaA  {
+
+margin-left:505px;
+margin-top: 1px;
+
+}
+
+.asocijacijaC  {
+
+margin-left: 505px;
+margin-top: 20px;
+
+}
+
+.asocijacijaB  {
+
+margin-left: 660px;
+margin-top: -466px;
+
+}
+
+.asocijacijaD {
+
+margin-left: 660px;
+margin-top: 31px;
+
+}
+
+.konacnoResenje  {
+
+margin-left: 536px;
+margin-top: -256.4px;
+width: 245px;
+height: 42px;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+outline: none;
+position: absolute;
+
+}
+
+.pogadjanje1  {
+
+opacity: 0;
+cursor: context-menu;
+
+}
+
+.odbrojavanje  {
+
+position: absolute;
+width: 50px;
+height: 30px;
+top: 490px;
+left: 200px;
+font-family: Verdana;
+font-size: 30px;
+border: 1px solid white;
+border-radius: 5px;
+padding: 10px;
+background: white;
+text-align: center;
+
+}
+
+.menjanje  {
+
+color: white;
+font-family: Verdana;
+text-transform: uppercase;
+margin-top: -150px;
+margin-left: 150px;
+
+}
+
+.potezi {
+
+color: white;
+text-align: center;
+margin-top: 100px;
+font-family: Verdana;
+
+}
+
+.covekPolje {
+
+
+}
+
+.kompPolje {
+
+
+	
+}
+
+.pretraga {
+
+visibility: hidden;
+
+}
+
+.prekidPretrage  {
+
+visibility: hidden;
+
+}
+
+.resenaKolona  {
+
+
+}
+
+.kompjuterResio  {
+
+
+}
+
+.pokusaj {
+
+	
+}
